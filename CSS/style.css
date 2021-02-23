@@ -10,3 +10,16 @@ h1 {
 p {
     color: peru;
 }
+
+.TextMain {
+    color: rebeccapurple;
+    font-size: 16 px;
+    font-weight: 500;
+    background-color: seashell;
+}
+
+div {
+    display: block;
+    width: 60vw;
+    position: absolute;
+}
