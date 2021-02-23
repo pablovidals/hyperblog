@@ -1,34 +1,44 @@
-body 
+body
 {
+    color: #333;
     text-align: center;
-    font-family: arial;
+    font-family: Arial;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
 }
 
-#containner 
+#cabecera
 {
-    width: 50%;
-    padding: 1em;
+    background: #33A;
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+}
+
+#cabecera #tagline
+{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
+#containner
+{
+    width: 70%;
+    padding: 0;
     text-align: left;
-    border: 1px solid #121212;
+    border: 1px solid #DDD;
     margin: 0 auto;
 }
-#containner h1 {
-    font-size: 20px;
-    text-align: center;
-}
-h1 
+
+#containner h1
 {
-    color: palevioletred;
+    font-size: 20px;
 }
-
-p {
-    color: peru;
+#post
+{
+    padding: 1em;
 }
-
-.TextMain {
-    color: rebeccapurple;
-    font-size: 16 px;
-    font-weight: 500;
-    background-color: seashell;
-}
-
